@@ -1,0 +1,66 @@
+﻿/*   Pour pouvoir utiliser un "min-height: 100%" sur div#global, il nous faut:
+   - un parent (body) en "height: 100%";
+   - le parent de body également en "height: 100%". */
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #E3E3F1;
+    font-family:  sans-serif;
+}
+
+h1 {
+    color: #446;
+    background-color: #E3E3F1;
+}
+
+article{
+    background-color: #E1FFE1;
+}
+
+time{
+    font-size: 50%;
+}
+
+.titreBillet {
+    margin-bottom : 0px;
+}
+
+p.auteur{
+   background-color: #9C9;
+   font-variant: small-caps;
+}
+
+#global {
+    min-height: 100%;  
+    background: #FFF;
+    border-color: #CCC;
+    width: 70%;
+    margin: auto;   
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#contenu {
+    margin-bottom : 30px;
+}
+
+#titreBlog {
+    color: #FFF;
+    background-color: #669;
+    text-align: center;
+}
+
+#piedBlog{
+    text-align: center;
+    font-size: 75%;
+}
+
+#titreReponses{
+    font-size: 100%;
+}
+
+#txtCommentaire{
+    width: 50%;
+}
